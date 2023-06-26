@@ -425,17 +425,11 @@
             "zIndex": 10,
             "connector": "smooth",
             "labels": [
-              {
-                "attrs": {
-                  "text": {
-                    "text": ""
-                  }
-                }
-              }
+              "Local boundary"
             ],
             "data": {
               "type": "tm.Boundary",
-              "name": "",
+              "name": "Local boundary",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -443,12 +437,13 @@
             "id": "bbe5a49b-44cf-4748-bff6-a773b598df78",
             "source": {
               "x": 730,
-              "y": 640
+              "y": 630
             },
             "target": {
               "x": 1020,
               "y": 40
-            }
+            },
+            "vertices": []
           }
         ]
       }
