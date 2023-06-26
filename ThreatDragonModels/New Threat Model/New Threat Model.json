@@ -27,6 +27,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Web Site Helpdesk\n"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -39,7 +42,7 @@
             "id": "c3c2a752-591b-46e0-bc1c-6ff9ca47b498",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Web Site Helpdesk\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
