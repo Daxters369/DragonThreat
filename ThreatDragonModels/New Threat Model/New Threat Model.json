@@ -61,6 +61,9 @@
               "height": 95
             },
             "attrs": {
+              "text": {
+                "text": "Database"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -76,7 +79,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "Database",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
