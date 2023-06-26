@@ -98,6 +98,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Server Backend"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -110,7 +113,7 @@
             "id": "da864ae7-d515-4a82-a23c-bbd9d30741fd",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Server Backend",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
