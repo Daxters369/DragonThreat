@@ -240,6 +240,93 @@
                 "y": 320
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "fdf4ade6-2633-46f3-aa25-48b6d6088e75",
+            "source": {
+              "x": 807,
+              "y": 173
+            },
+            "target": {
+              "cell": "334f40d3-6c97-460d-8e84-b8761b309d80"
+            },
+            "vertices": [
+              {
+                "x": 930,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "1f497b61-b5f8-441a-8d61-90682f7ae261",
+            "source": {
+              "x": 795,
+              "y": 268
+            },
+            "target": {
+              "x": 1040,
+              "y": 270
+            },
+            "vertices": [
+              {
+                "x": 920,
+                "y": 350
+              }
+            ]
           }
         ]
       }
