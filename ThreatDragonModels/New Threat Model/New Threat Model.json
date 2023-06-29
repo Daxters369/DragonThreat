@@ -671,20 +671,20 @@
           },
           {
             "position": {
-              "x": 310,
-              "y": 419
+              "x": 220,
+              "y": 360
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 210,
+              "height": 210
             },
             "attrs": {
               "text": {
                 "text": "AMC Authentification Server"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -699,8 +699,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "a2082f58-9705-4632-877a-edf88fc25a51",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Potential attacks on Identity and Access Management roles",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ]
             }
           }
         ]
@@ -708,6 +722,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 16
   }
 }
