@@ -61,6 +61,19 @@
                   "new": false,
                   "number": 2,
                   "score": "10"
+                },
+                {
+                  "id": "4be628de-7672-4cf2-bffa-150f2a20b412",
+                  "title": "Denial of Service ",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "An attacker could flood the application with traffic, making it unavailable.",
+                  "mitigation": "Introduce CDN with DoS protection into app architecture",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": "15"
                 }
               ]
             }
@@ -516,6 +529,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 2
+    "threatTop": 3
   }
 }
