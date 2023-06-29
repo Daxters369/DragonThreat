@@ -119,7 +119,7 @@
           },
           {
             "position": {
-              "x": 1030,
+              "x": 1040,
               "y": 172.5
             },
             "size": {
@@ -169,6 +169,19 @@
                   "new": false,
                   "number": 1,
                   "score": "25"
+                },
+                {
+                  "id": "76ff90cd-9222-4a5b-a947-451659e970c5",
+                  "title": "Data leak",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Sensitive data in the database could be leaked through the backend.",
+                  "mitigation": "Encrypt sensitive data at rest in the database and when in transit from the database to the backend.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": "26"
                 }
               ]
             }
@@ -568,6 +581,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 6
+    "threatTop": 7
   }
 }
