@@ -200,8 +200,8 @@
                 "text": "Server Backend"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -216,8 +216,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "7f914f91-e944-45d5-b0ba-ae3a4d0956bb",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "An attacker could overwhelm backend by flooding it with traffic, rendering it unavailable to legitimate users.",
+                  "mitigation": "Implement rate limiting & consider using AWS Shield for DDoS protection.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": "22"
+                }
+              ]
             }
           },
           {
@@ -581,6 +595,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 7
+    "threatTop": 8
   }
 }
