@@ -300,8 +300,8 @@
                 "text": "Authentification Server"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -316,8 +316,22 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "privilegeLevel": "",
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "7f16938e-9136-44d8-ac9c-de230dc491b9",
+                  "title": "Access Management attacks",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Potential attacks on Identity and Access Management roles",
+                  "mitigation": "For roles should be given minimum necessary permissions and restrictions.\n",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": "27"
+                }
+              ]
             }
           },
           {
@@ -647,6 +661,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 12
+    "threatTop": 13
   }
 }
