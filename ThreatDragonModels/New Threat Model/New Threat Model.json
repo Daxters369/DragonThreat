@@ -330,6 +330,19 @@
                   "new": false,
                   "number": 13,
                   "score": "27"
+                },
+                {
+                  "id": "e7ef9314-70cc-4efa-8028-16beda9dab17",
+                  "title": "Denial of Action",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "In case of an incident, an attacker could deny that they performed an action.",
+                  "mitigation": "Implement comprehensive logging and monitoring",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": "28"
                 }
               ]
             }
@@ -661,6 +674,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 13
+    "threatTop": 14
   }
 }
