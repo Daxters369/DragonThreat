@@ -668,6 +668,40 @@
               "y": 470
             },
             "vertices": []
+          },
+          {
+            "position": {
+              "x": 310,
+              "y": 419
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "AMC Authentification Server"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "4839bb5a-2b9b-44ee-93cd-5e8aa68e3a88",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "AMC Authentification Server",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
+              "hasOpenThreats": false,
+              "threats": []
+            }
           }
         ]
       }
