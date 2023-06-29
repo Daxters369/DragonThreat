@@ -703,16 +703,16 @@
               "threats": [
                 {
                   "id": "a2082f58-9705-4632-877a-edf88fc25a51",
-                  "title": "New STRIDE threat",
+                  "title": "Access Management attacks",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "type": "Spoofing",
                   "description": "Potential attacks on Identity and Access Management roles",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 16,
-                  "score": ""
+                  "score": "30"
                 }
               ]
             }
