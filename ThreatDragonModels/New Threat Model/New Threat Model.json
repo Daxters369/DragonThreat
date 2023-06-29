@@ -256,6 +256,19 @@
                   "new": false,
                   "number": 10,
                   "score": "18"
+                },
+                {
+                  "id": "cd7c8527-5c0a-464a-a4e9-70a7cd8370c9",
+                  "title": "Elevation of Privilege",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "An attacker could gain elevated privileges.",
+                  "mitigation": "Follow the principle of least privilege when setting up AWS IAM roles & implement multi-factor authentication where possible.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": "23"
                 }
               ]
             }
@@ -621,6 +634,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 10
+    "threatTop": 11
   }
 }
