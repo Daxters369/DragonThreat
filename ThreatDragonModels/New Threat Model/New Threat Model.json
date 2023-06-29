@@ -269,6 +269,19 @@
                   "new": false,
                   "number": 11,
                   "score": "23"
+                },
+                {
+                  "id": "e1237498-f498-465f-8202-15def82b6c20",
+                  "title": "Denial of Action",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "In case of an incident, an attacker could deny that they performed an action.",
+                  "mitigation": "Implement comprehensive logging and monitoring - consider AWS CloudTrail.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": "21"
                 }
               ]
             }
@@ -634,6 +647,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 11
+    "threatTop": 12
   }
 }
