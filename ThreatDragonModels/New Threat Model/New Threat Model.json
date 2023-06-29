@@ -375,48 +375,6 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "4693a41b-adff-4e15-9b15-806c988c5386",
-            "source": {
-              "cell": "da864ae7-d515-4a82-a23c-bbd9d30741fd"
-            },
-            "target": {
-              "cell": "c3c2a752-591b-46e0-bc1c-6ff9ca47b498"
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
             "id": "fdf4ade6-2633-46f3-aa25-48b6d6088e75",
             "source": {
               "x": 807,
@@ -750,6 +708,51 @@
               {
                 "x": 540,
                 "y": 110
+              }
+            ],
+            "labels": [
+              "Data Flow HTTPS"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow HTTPS",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "TCP",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "4693a41b-adff-4e15-9b15-806c988c5386",
+            "source": {
+              "cell": "da864ae7-d515-4a82-a23c-bbd9d30741fd"
+            },
+            "target": {
+              "cell": "c3c2a752-591b-46e0-bc1c-6ff9ca47b498"
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 320
               }
             ],
             "labels": [
