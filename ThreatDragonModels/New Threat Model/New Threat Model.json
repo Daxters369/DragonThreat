@@ -100,6 +100,19 @@
                   "new": true,
                   "number": 0,
                   "score": ""
+                },
+                {
+                  "id": "9022d3f1-a9cb-45a0-867a-2ff57f623089",
+                  "title": "Data modification",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Attacker could modify data in transit. ",
+                  "mitigation": "Use HTTPS to encrypt data in transit.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": "11"
                 }
               ]
             }
@@ -555,6 +568,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 5
+    "threatTop": 6
   }
 }
