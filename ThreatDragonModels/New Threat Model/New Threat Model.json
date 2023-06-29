@@ -250,7 +250,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Spoofing",
-                  "description": "Potential attacks on AWS Identity and Access Management (IAM) roles.",
+                  "description": "Potential attacks on AMC Identity and Access Management (IAM) roles.",
                   "mitigation": "AWS IAM roles should be given minimum necessary permissions.",
                   "modelType": "STRIDE",
                   "new": false,
