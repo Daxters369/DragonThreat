@@ -74,6 +74,32 @@
                   "new": false,
                   "number": 3,
                   "score": "15"
+                },
+                {
+                  "id": "7e35ac7d-5df2-4ce4-82c6-c75f44cc0f2b",
+                  "title": "Sensitive data could be leaked",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Sensitive data could be leaked if not properly protected.",
+                  "mitigation": "Enforce access controls and use encryption for all sensitive data",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": "14"
+                },
+                {
+                  "id": "ad8e7667-d5f1-495f-b444-18a3aaef9245",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 0,
+                  "score": ""
                 }
               ]
             }
@@ -529,6 +555,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 5
   }
 }
